@@ -1,0 +1,44 @@
+# MRO - Method Resolution Order
+
+class A:
+    def my_family(self):
+        print("yes i am the oldest")
+
+class B(A):      
+    def my_family(self):
+        print("yes i am the father")
+
+class C(A):
+    def  my_family(self):
+        print("yes iam the youngest")
+
+class D(B,C):
+    pass 
+
+d = D()
+d.my_family()
+   
+   
+  # this is INHERITANCE
+  
+class Parent:
+    def __init__(self, fname , fage):
+        self.name = fname
+        self.age = fage
+     
+
+    def view(self):
+        print(self.name, self.age,)
+   
+class Child(Parent):
+    def __init__(self, fname , fage):
+        Parent.__init__(self, fname,fage)
+        self.lastname = "fungo"
+        
+    def view(self):
+        print(self.age, self.lastname , self.name)
+
+ob = Child('karl' , 19)
+ob.view()
+       
+ 
