@@ -100,6 +100,81 @@ rice = Rice()
 #orange.muscle()
 #rice.energy()
 
+# This is my phyton list
+
+nbaplayerlist = ["James", "Curry", "Bryant", "Fungo", "Durant"]
+print(nbaplayerlist)
+print("\n")
+print("==============================")
+print("\n")
+
+#Output 
+#["James", "Curry", "Bryant", "Fungo", "Durant"]
+
+# checking the lenght of my list
+
+pbaplayerlist = ["Lapid", "Castro", "Aguilar", "Fungo", "Thompson"]
+print(len(pbaplayerlist))
+print("\n")
+print("==============================")
+print("\n")
+
+# the output will be 5
+
+# This is Range index in phyton list
+
+my_list = ["pogs", "text", "jollens", "piko", "tumbang preso", "sikyo", "taguan"]
+print(my_list[3:5])
+print("\n")
+print("$$$$$$$$$$$$$$$$$$$$$$$$")
+print("\n")
+
+#output
+#['piko', 'tumbang preso']
+
+# This is Range Negative indexing in phyton list
+
+my_list = ["pogs", "text", "jollens", "piko", "tumbang preso", "sikyo", "taguan"]
+print(my_list[-2:-4])
+print("\n")
+print("$$$$$$$$$$$$$$$$$$$$$$$$")
+print("\n")
+
+#output
+#[ ]
+
+
+# Tuple 
+my_tuple = ("duralite", "havainas", "addidas", "nike", "ari joraon")
+print(my_tuple)
+print("\n")
+# output
+# ('duralite', 'havainas', 'addidas', 'nike', 'ari joraon')
+
+# Tuple with one item
+
+mytuple = ("Karl",)
+print(type(mytuple))
+
+# output 
+# class tuple
+# it become a class tuple because of add comma after the object
+
+mytuple = ("Michael")
+print(type(mytuple))
+
+# the possible output of this code is error
+# because i forgot the comma after the object
+
+# Tuple constructor
+karltuple = tuple(("ikaw", "lang", "sapat", "na"))
+print(karltuple)
+
+
+# note the double round-brackets
+
+
+
 
  
  
