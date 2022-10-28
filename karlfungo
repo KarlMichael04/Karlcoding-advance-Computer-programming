@@ -1,5 +1,6 @@
+-------------------------------------------------------------------------------------------------------
 # MRO - Method Resolution Order
-
+-------------------------------------------------------------------------------------------------------
 class A:
     def my_family(self):
         print("yes i am the oldest")
@@ -18,9 +19,9 @@ class D(B,C):
 d = D()
 d.my_family()
    
-   
-  # this is INHERITANCE
-  
+----------------------------------------------------------------------------------------------------   
+# this is INHERITANCE
+----------------------------------------------------------------------------------------------------  
 class Parent:
     def __init__(self, fname , fage):
         self.name = fname
@@ -41,4 +42,68 @@ class Child(Parent):
 ob = Child('karl' , 19)
 ob.view()
        
+  ----------------------------------------------------------------------------------------------------     
+ #Another Example of single inheritance
+ ------------------------------------------------------------------------------------------------------
+ class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+    
+  def myfunc(abc):
+    print("Hey I'ts me " + abc.name)
+
+      
+p1 = Person("Karl", 19)
+p1.myfunc()
+------------------------------------------------------------------------------------------------------------------------
+# Practicing multiple Inheritance
+-------------------------------------------------------------------------------------------------------------------------
+class Go:
+    def energy(self):
+        print("This is for gainning energy")
+
+class Glow:
+    def muscle(self):
+        print("This is for muscle")
+
+class Grow:
+    def healthy(self):
+        print("This is for body healthy")
+
+class Bread(Go):
+    pass
+
+class Egg(Grow):
+    pass
+
+class Apple(Glow):
+    pass
+
+class Peanut(Grow):
+    pass
+
+class Orange(Glow):
+    pass
+
+class Rice(Go):
+    pass
+
+bread = Bread()    
+egg = Egg()   
+apple = Apple()
+peanut = Peanut()
+orange = Orange()
+rice = Rice()
+
+#bread.energy()
+#gg.healthy()
+#apple.muscle()
+#peanut.healthy()
+#orange.muscle()
+#rice.energy()
+
+
+
+ 
  
