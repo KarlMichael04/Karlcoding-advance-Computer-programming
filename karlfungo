@@ -170,8 +170,42 @@ print(type(mytuple))
 karltuple = tuple(("ikaw", "lang", "sapat", "na"))
 print(karltuple)
 
-
 # note the double round-brackets
+
+# Set
+panset = {"carrots", "bihon", "toyo", "noodles"}
+print(panset)
+print("\n")
+
+# Set Access
+thisset = {"uno", "dos", "tres"}
+
+for x in thisset:
+  print(x)
+
+# uno
+# dos
+# tres
+
+# Another practice in set Access
+Myset = {"sila", "kayo", "ikaw"}
+
+print("ako" in Myset)
+
+# False
+# because the word "ako" is not item in the set
+
+# Adding set
+karlset = {"sasuke", "kakashi", "sakura"}
+karllist = ["naruto", "jiraya"]
+
+karlset.update(karllist)
+
+print(karlset)
+
+#The keyword update() is to Add elements of a list to at set
+
+
 
 
 
